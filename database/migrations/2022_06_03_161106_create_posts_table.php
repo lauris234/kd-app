@@ -13,6 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
+
+        /*haven't proper update on git*/
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('title');

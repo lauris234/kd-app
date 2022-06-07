@@ -39,14 +39,14 @@ class PostController extends Controller
 
     public function show(Post $post): View
     {
-        return view('post.show', [
+        return view('posts.show', [
             'post'=> $post,
         ]);
     }
 
     public function  edit(Post $post): View
     {
-        return view('post.edit', [
+        return view('posts.edit', [
             'post'=> $post,
         ]);
     }
